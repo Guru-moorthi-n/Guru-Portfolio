@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurumoorthi | Aspiring Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="headName">Gurumoorthi's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse " id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item"> <a class="nav-link activeBtn home" href="#home" id="homeButton"
+                            aria-current="page">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link activeBtn about" href="#about" id="aboutBtn">About</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link activeBtn skills" href="#skills" id="skillsBtn">Skills</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link activeBtn projects" href="#projects"
+                            id="projectsBtn">Projects</a> </li>
+                    <li class="nav-item"> <a class="nav-link activeBtn contact" href="#contact"
+                            id="contactBtn">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link"><button id="themeBtn"><img src="./assets/sun.png"
+                                    height="30px" alt="lightOrDarkTheme" id="themeImg"></button></a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <div id="home" class="container page-section py-5">
+        <div class="row align-items-center g-lg-5">
+            <!-- Text Content -->
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Hey! I am Gurumoorthi,</h1>
+                <h2 class="fs-2 fw-semibold mb-3">Aspiring <span class="text-warning fs-1">FULL STACK DEVELOPER</span>
+                </h2>
+            </div>
+
+            <!-- Profile Image -->
+            <div class="col-md-10 mx-auto col-lg-5 ms-lg-5">
+                <img src="./assets/homePageImg.svg" class="img-fluid" draggable="false" alt="Profile Image" id="pfpImg">
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- About Section -->
+    <div id="about" class="container page-section py-5">
+        <div class="row align-items-center">
+
+            <!-- Profile Image Column -->
+            <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+                <img src="./assets/pfp.png" alt="My Profile" class="img-fluid rounded" style="max-height: 450px;"
+                    id="myImg">
+            </div>
+
+            <!-- Text Column -->
+            <div class="col-12 col-md-8">
+                <h2 class="Title text-center text-md-start mb-4">About Me</h2>
+
+                <div class="about-text">
+
+                    <p class="mb-4">
+                        Hello! I'm <strong>Gurumoorthi</strong>, an aspiring Full Stack Developer currently pursuing my
+                        Bachelor's in Computer Science Engineering (3rd Year). I have a solid foundation in web
+                        technologies - and I'm actively learning modern <strong>full
+                            stack tools and frameworks</strong> to build robust, user-centric applications.
+                    </p>
+
+                    <p class="mb-4">
+                        Alongside web development, I also have experience with<strong> Python and GUI programming using
+                            Tkinter</strong>,
+                        which sparked my interest in creating visually interactive software. I'm a quick learner who
+                        enjoys solving problems and exploring new technologies.
+                    </p>
+
+                    <p class="mb-4">
+                        Beyond coding, I’m passionate about movies and series - storytelling inspires the way I think
+                        about design and interaction. I also enjoy drawing, which helps me approach UI and layout
+                        creatively.
+                    </p>
+
+                    <p class="mb-4">
+                        I believe success comes from consistent effort and progress. One of my favorite quote that
+                        motivates me is:
+                    </p>
+
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-2 fs-5 impText"><em>"No matter how hard or impossible it is, never lose sight of
+                                your goal."</em></p>
+                        <footer class="blockquote-footer">Monkey D. Luffy</footer>
+                    </blockquote>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr />
+
+    <!-- Skills Section -->
+    <div id="skills" class="container page-section py-5">
+        <div class="row align-items-center text-center">
+            <h2 class="Title mt-4">Skills & Technologies</h2>
+            <div class="row row-cols-2 row-cols-md-5 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/html5.png" class="card-img-top" alt="html5">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML 5</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/css3.png" class="card-img-top" alt="css3">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS 3</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/bootstrap.png" class="card-img-top" alt="bootsrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/javascript.png" class="card-img-top" alt="javascript">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/jQuery.png" class="card-img-top" alt="jQuery">
+                        <div class="card-body">
+                            <h5 class="card-title">jQuery</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/python.png" class="card-img-top" alt="python">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/tkinter.png" class="card-img-top" alt="tkinter GUI">
+                        <div class="card-body">
+                            <h5 class="card-title">Tkinter</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/numpy.png" class="card-img-top" alt="numpy">
+                        <div class="card-body">
+                            <h5 class="card-title">NumPy</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary fst-italic text-center">I'm continuously learning new
+                                technologies and improving my skills.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+
+    <!-- Projects Section-->
+    <div id="projects" class="container page-section py-5">
+        <div class="row align-items-center text-center">
+            <h2 class="Title mt-4">Projects</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button> -->
+                </div>
+                <!-- Carousel 1 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./assets/projects/BDP.png" class="card-img-top" alt="Project BDP">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">Project BDP</h6>
+                                    <p class="card-text text-start">A Python GUI application built using the Tkinter
+                                        module and
+                                        integrated with SQLite3 for data management. This application is for storing and
+                                        maintaining the details of people.</p>
+                                    <p>Learn more about this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_python-tkinter-sqlite3-activity-7242733181357940736-8329?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">
+                                                Linkedin</a></strong></p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - September 2024</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/projects/Private Bank Software.png" class="card-img-top"
+                                    alt="Project Private Bank Software">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">Private Bank Software</h6>
+                                    <p class="card-text text-start">A model private bank software using Python GUI
+                                        module
+                                        "Tkinter". This system features secure user authentication, a user-friendly
+                                        interface, robust security, convenient deposit/withdrawal options and seamless
+                                        account creation with multiple banking operations.</p>
+                                    <p>Learn more about
+                                        this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_softwaredevelopment-banking-python-activity-7259208947356622849-qPcJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">
+                                                Linkedin</a></strong></p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - November 2024</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/projects/simple calculator.png" class="card-img-top"
+                                    alt="Project Simple calculator">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">Simple Calculator</h6>
+                                    <p class="card-text text-start">I build a Simple Calculator GUI using Tkinter. This
+                                        project
+                                        implements a simple calculator application in Python, leveraging the Tkinter
+                                        library for the graphical user interface.
+                                        It supports basic arithmetic operations (+, -, *, /, %) and includes error
+                                        handling for invalid input.</p>
+                                    <p>Learn more about this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_python-tkinter-guiprogramming-activity-7297641163644182528-oUqI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">LinkedIn</a></strong>
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - February 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel 2 -->
+                    <div class="carousel-item">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./assets/projects/airwave chat.jpeg" class="card-img-top"
+                                    alt="Project Airwave Chat">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">AirWave Chat</h6>
+                                    <p class="card-text text-start">A reliable offline messaging system designed for
+                                        communication without internet or network coverage - perfect for remote areas.
+                                    </p>
+                                    <p>Learn more about this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_lora-esp32-iot-activity-7322818158178770944-F5K0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">LinkedIn</a></strong>
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - March 2025 (Version 1
+                                        Prototype)</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/projects/FLAMS Bridge.png" class="card-img-top"
+                                    alt="Project Flams Bridge">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">FLAMS Bridge</h6>
+                                    <p class="card-text text-start">FLAMS Bridge empowers the agricultural ecosystem by
+                                        enabling direct interaction between Farmers, Customers, and Companies --
+                                        eliminating middlemen, ensuring fair pricing, and boosting transparency.</p>
+                                    <p>Learn more about this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_agritech-hackathon2025-kpriet-activity-7353073460673212416-nvi4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">LinkedIn</a></strong>
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - April 2025 (Version 1)</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/projects/Cinema Intelligence.png" class="card-img-top"
+                                    alt="Project Ci">
+                                <div class="card-body">
+                                    <h6 class="card-title Title">Cinema Intelligence (Ci)</h6>
+                                    <p class="card-text text-start">AI-Powered Movie Recommendation System.
+
+                                        Proud to present our team project, Cinema Intelligence — a smart movie
+                                        recommendation website designed to help users discover the best films tailored
+                                        to their preferences.</p>
+                                    <p>Learn more about this project in <strong><a
+                                                href="https://www.linkedin.com/posts/profile-of-gurumoorthi_cinemaintelligence-movierecommendation-aiproject-activity-7353412197814792194-kqoV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2bF5sB56iJkTNn1jQM12wqJ28e-HjX7mI">LinkedIn</a></strong>
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Completed on - May 2025 (Version 1)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel 3 -->
+                    <!-- <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <!-- Contact Section -->
+    <div id="contact" class="container page-section py-5">
+        <div class="row align-items-center text-center">
+            <h2 class="Title mt-4 text-center text-lg-start pb-4">Contact</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="circle-icon mb-3">
+                        <i class="fas fa-envelope"></i> <!-- Email icon -->
+                    </div>
+
+                    <h2 class="fw-normal Title">Email</h2>
+                    <p>For any queries or collaboration, feel free to reach out. Click the button below to send me an
+                        email.</p>
+                    <p><a class="btn btn-warning" href="mailto:gurumoorthi64117@gmail.com">Click here »</a></p>
+                    <hr>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="circle-icon mb-3">
+                        <i class="fab fa-linkedin-in"></i> <!-- LinkedIn icon -->
+                    </div>
+
+                    <h2 class="fw-normal Title">LinkedIn</h2>
+                    <p>Let’s connect and grow together! Click below to visit my LinkedIn profile.</p>
+                    <p><a class="btn btn-warning" href="https://www.linkedin.com/in/profile-of-gurumoorthi/">Click here
+                            »</a></p>
+                    <hr>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="circle-icon mb-3">
+                        <i class="fab fa-github"></i> <!-- GitHub icon -->
+                    </div>
+
+                    <h2 class="fw-normal Title">GitHub</h2>
+                    <p>Explore my code and personal projects on GitHub. Click below to visit my GitHub profile.</p>
+                    <p><a class="btn btn-warning" href="https://github.com/Guru-moorthi-n">Click here »</a></p>
+                    <hr>
+                </div><!-- /.col-lg-4 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+                <p>© 2025 Guru's Portfolio</p>
+            </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="./script.js" charset="UTF-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+
+body {
+  padding-top: 60px; /* Or adjust to 70px if needed */
+}
+
+
+/* Nav Bar Styles */
+#headName{
+    color: #ffc107;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+}
+
+/* Active Button Style */
+.ActiveButton {
+    background-color: #0d6efd;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.activeBtn {
+    color: white;
+}
+
+#themeBtn {
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+
+/* Home Section Sytles */
+
+#home {
+  display: flex;
+  align-items: center;
+}
+
+#home h1, #home h2, #home p {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* About Section Styles */
+
+.Title {
+  color: #ffc107;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bolder;
+}
+
+#myImg {
+  box-shadow: 15px 15px gray;
+  pointer-events: none;
+}
+
+.impText {
+  color: #f3c435c5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for scroll by down arrow key */
+.page-section {
+  min-height: 100vh;
+  scroll-snap-align: start; /* optional for snapping */
+}
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+
+/* Carousel Arrow color changer and Indicator position changer */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+/* Default: Large screens */
+.carousel-control-prev {
+  left: -8%;
+}
+
+.carousel-control-next {
+  right: -8%;
+}
+
+/* Override for small screens (mobile) */
+@media (max-width: 576px) {
+  .carousel-control-prev {
+    left: -3%;  /* Less negative so it's visible */
+  }
+
+  .carousel-control-next {
+    right: -3%;
+  }
+}
+
+
+.carousel-indicators {
+  filter: invert(100%);
+  position: absolute;
+  bottom: -50px;
+}
+
+
+/* Contact section Styles */
+#contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-icon {
+  width: 140px;
+  height: 140px;
+  background-color: var(--bs-secondary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 0 auto;
+}
