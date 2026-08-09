@@ -161,7 +161,7 @@ body {
 
 .sk-item {
     width: 110px;
-    height: 110px;
+    height: 105px;
     border-radius: 18px;
     background: rgba(217, 217, 217, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -170,6 +170,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sk-item:hover {
+    background-color: rgba(217, 217, 217, 0.208);
+    cursor: pointer;
+    border: 0.5px solid #D9A441;
 }
 
 /* Tech Items Icons & Names */
